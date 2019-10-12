@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:600,900&display=swap&subset=cyrillic');
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+h3>a{
+    /* font-family: 'Montserrat Alternates', sans-serif; */
+   font-weight: bold;
+    text-decoration: none;
+    box-shadow: none;
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+}
+#___gatsby{
+    width: 60%;
+}
+.header_title>a{
+    text-decoration: none;
+    color: #2c7243;
+    box-shadow: none;
+    font-weight: 900;
+    font-size: 60px;
+}
+.all_posts{
+    /* display: flex; */
+    /* border: 1px solid red; */
+}
+.one_post{
+    /* display: flex;
+    flex-direction: row;
+    height: 1600px;
+    width: 1600px; */
+}

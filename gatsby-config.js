@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Katya Blog`,
+    title: `Kaktus Blog`,
     author: `Dmitrii Vasiliev`,
     description: `Katya Blog for my portfolio`,
-    siteUrl: `https://www.akmid.com`,
+    siteUrl: `https://katyakaktus.netlify.com`,
     social: {
       twitter: `akmid`,
     },
@@ -57,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Kaktus Blog`,
+        short_name: `Kaktus blog`,
         start_url: `/`,
         background_color: `#ffffff`,
-        theme_color: `#663399`,
+        theme_color: `#50c878`,
         display: `minimal-ui`,
         icon: `content/assets/gatsby-icon.png`,
       },

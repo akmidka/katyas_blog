@@ -1,10 +1,8 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
 import Img from "gatsby-image"
 
 class BlogPostContentfulTemplate extends React.Component {
@@ -23,21 +21,12 @@ class BlogPostContentfulTemplate extends React.Component {
         <Img fluid={post.image.fluid} />
 
           <header>
-            <h1
-              style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-              }}
-            >
+            <h1>
               {post.title}
             </h1>            
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.text.childContentfulRichText.html }} />
-          <hr
-            style={{
-              marginBottom: rhythm(1),
-            }}
-          />
+          <hr/>
           <footer>
           </footer>
         </article>
